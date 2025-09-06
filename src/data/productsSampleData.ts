@@ -1,0 +1,112 @@
+const productsSampleData = {
+  products: [
+    {
+      name: "iPhone 15 Pro Max",
+      slug: "iphone-15-pro-max",
+      category: "Smartphones",
+      description:
+        "Apple's most advanced iPhone with A17 Pro chip and Titanium body",
+      images: [
+        "/images/sample-products/iphone.png",
+        "/images/sample-products/iphone.png",
+      ],
+      price: 1299.0,
+      brand: "Apple",
+      rating: 4.8,
+      numReviews: 250,
+      stock: 12,
+      isFeatured: true,
+      banner: "banner-iphone.jpg",
+    },
+    {
+      name: "MacBook Pro 16-inch (M3 Max)",
+      slug: "macbook-pro-16-m3-max",
+      category: "Laptops",
+      description:
+        "Powerful performance with the M3 Max chip and Liquid Retina XDR display",
+      images: [
+        "/images/sample-products/macbook.png",
+        "/images/sample-products/macbook.png",
+      ],
+      price: 3499.0,
+      brand: "Apple",
+      rating: 4.9,
+      numReviews: 95,
+      stock: 5,
+      isFeatured: true,
+      banner: "banner-macbook.jpg",
+    },
+    {
+      name: "Apple Watch Series 9",
+      slug: "apple-watch-series-9",
+      category: "Wearables",
+      description: "Next-level health tracking and new gesture control",
+      images: [
+        "/images/sample-products/apple-watch.png",
+        "/images/sample-products/apple-watch.png",
+      ],
+      price: 429.0,
+      brand: "Apple",
+      rating: 4.7,
+      numReviews: 134,
+      stock: 20,
+      isFeatured: false,
+      banner: null,
+    },
+    {
+      name: "AirPods Pro (2nd Generation)",
+      slug: "airpods-pro-2",
+      category: "Audio",
+      description:
+        "Active Noise Cancellation and Adaptive Transparency with MagSafe charging",
+      images: [
+        "/images/sample-products/airpods.png",
+        "/images/sample-products/airpods.png",
+      ],
+      price: 249.0,
+      brand: "Apple",
+      rating: 4.6,
+      numReviews: 300,
+      stock: 15,
+      isFeatured: false,
+      banner: null,
+    },
+    {
+      name: "iPad Pro 12.9-inch (M2)",
+      slug: "ipad-pro-12-9-m2",
+      category: "Tablets",
+      description:
+        "Ultra-performance tablet with M2 chip and ProMotion display",
+      images: [
+        "/images/sample-products/ipad.png",
+        "/images/sample-products/ipad.png",
+      ],
+      price: 1099.0,
+      brand: "Apple",
+      rating: 4.8,
+      numReviews: 110,
+      stock: 7,
+      isFeatured: false,
+      banner: null,
+    },
+    {
+      name: "Apple Vision Pro",
+      slug: "apple-vision-pro",
+      category: "Mixed Reality",
+      description: "Revolutionary spatial computing headset",
+      images: [
+        "/images/sample-products/apple-vision.png",
+        "/images/sample-products/apple-vision.png",
+      ],
+      price: 3499.0,
+      brand: "Apple",
+      rating: 4.5,
+      numReviews: 42,
+      stock: 2,
+      isFeatured: true,
+      banner: "banner-visionpro.jpg",
+    },
+  ],
+};
+
+export default productsSampleData;
